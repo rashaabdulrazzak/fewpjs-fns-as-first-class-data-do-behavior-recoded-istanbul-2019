@@ -26,7 +26,5 @@ function greet(timestr){
     }
 }
 function displayMessage(message){
- // let val = document.getElementById('greeting');
- // document.getElementById("greeting").innerHTML = message;
     document.getElementById("greeting").innerText = message;
 }
